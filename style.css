@@ -61,11 +61,35 @@ img {
   top: 0.15em;
 }
 
+/* sidepanel end */
+
+/* header start */
+
 .header {
   grid-area: header;
 
   background-color: #ffffff;
 }
+
+.header-section-1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+  margin: 20px;
+}
+
+.search input{
+  width: 75%;;
+}
+
+.header-section-2 {
+  display: grid;
+  grid-template-columns: 0.25fr 3fr 1fr;
+  /* grid-template-columns: repeat(3, 1fr); */
+  margin: 20px;
+}
+
+/* header end */
 
 .main-content {
   grid-area: main-content;
